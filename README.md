@@ -1,4 +1,4 @@
-Based on AnotherMonitor v3.0.6
+Based on AnotherMonitor v3.0.6 (link contains build/install instructions)
 https://github.com/AntonioRedondo/AnotherMonitor
 
 © 2010-2016 Antonio Redondo

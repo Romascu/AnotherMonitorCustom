@@ -155,16 +155,19 @@
 		\nhttp://antonioredondo.com
 		\n\nPublished under the
 		\nGNU General Public License v3
-				\n\nThis app is intended as a custom version of the above app, at this time contains minimal changes, the repository link will be posted when signinificant changes will be made.
+				https://github.com/AntonioRedondo/AnotherMonitor/blob/master/LICENSE.md
+				\n\nThis app is intended as a custom version of the above app, at this time contains minimal changes mostly related to description/strings. Link:
+		https://github.com/Romascu/AnotherMonitorCustom
 		</string>
 	<string name="about_text">
 		\n\nAnotherMonitor monitors and records the CPU usage and memory parameters of Android devices.
-		\n\nThis app is intended as a custom version of the above app, at this time contains minimal changes, the repository link will be posted when signinificant changes will be made.
+		\n\nThis app is intended as a custom version of the AnotherMonitor app, at this time contains minimal changes.
 	</string>
     <string name="about_feedback_text">Rate app</string>
     <string name="about_feedback_button">CustomMonitor on Google Play</string>
     <string name="about_gnugpl_text">GNU General Public License v3</string>
     <string name="about_gnugpl_link">https://gnu.org/licenses/gpl.html</string>
+	<string name="custom_vers_link">https://github.com/Romascu/AnotherMonitorCustom</string>
     <string name="cd_paramter_status_icon">Parameter status icon</string>
     <string name="content_description_logo_app">Logo app</string>
 </resources>

@@ -17,7 +17,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "org.anothermonitor"
+        applicationId "org.anothermonitorcustom"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 8

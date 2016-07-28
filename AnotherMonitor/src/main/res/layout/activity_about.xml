@@ -13,7 +13,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+			android:weightSum="1">
 
             <ImageView
                 android:layout_width="100dp"
@@ -64,7 +65,9 @@
                 android:text="@string/about_feedback_text"
                 android:textStyle="bold"
             	android:textSize="21sp"
-            	android:textColor="@color/White" />
+            	android:textColor="@color/White"
+				android:layout_weight="0.27"
+				android:layout_gravity="center_horizontal" />
 
             <Button
                 android:id="@+id/BGooglePlay"

@@ -256,12 +256,15 @@ public class ActivityMain extends Activity {
 		setContentView(R.layout.activity_main);
 
 
+
 		mAdView = (AdView) findViewById(R.id.adView);
 		AdRequest adRequest = new AdRequest.Builder()
 				.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
 				.addTestDevice("FF72EAFF80BD1240CF666E22BD94403C")  // My phone
 				.build();
 		mAdView.loadAd(adRequest);
+
+
 
 		mPrefs = getSharedPreferences(getString(R.string.app_name) + C.prefs, MODE_PRIVATE);
 		intervalRead = mPrefs.getInt(C.intervalRead, C.defaultIntervalUpdate);
@@ -1364,10 +1367,8 @@ public class ActivityMain extends Activity {
 	public void onResume() {
 		super.onResume();
 
-
 		if(mAdView!=null){  // Check if Adview is not null in case of fist time load.
 			mAdView.resume();}
-
 
 		mHandler.removeCallbacks(drawRunnable);
 		mHandler.post(drawRunnable);

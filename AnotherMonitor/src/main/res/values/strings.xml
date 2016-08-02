@@ -16,7 +16,7 @@
     <string name="w_main_hide">Hide</string>
     <string name="w_main_remove_all">Remove All</string>
     <string name="w_main_feedback_title">Just one second ;)</string>
-    <string name="w_main_feedback_text">You\'ve been using AnotherMonitor for a while.
+    <string name="w_main_feedback_text">You\'ve been using CustomMonitor for a while.
         \n\nYour feedback is invaluable to improve the app. Would you like to rate the app on Google Play? (It\'s 30 seconds).</string>
     <string name="w_main_feedback_yes">Yes</string>
     <string name="w_main_feedback_done">I\'ve already done it</string>
@@ -46,7 +46,7 @@
         \n\nYou can see the total CPU and memory usage of all processes currently running on the system.
 		If the device has more than one core the CPU usage will be the sume of all cores\' CPU usage.
 		Add processes by pressing \'Choose other process(es)\' button.
-        AnotherMonitor process will always be shown in the list. Switch between CPU and memory usage by pressing the \'Memory\' button.
+        CustomMonitor process will always be shown in the list. Switch between CPU and memory usage by pressing the \'Memory\' button.
         The memory monitored and shown by AnotherMonitor is the Total Private Dirty.
         If Android kills a process due to low memory
         or the process finishes itself, \'DEAD\' will be shown.
@@ -138,7 +138,7 @@
 	</string-array>
 	<string name="p_cpuusage">CPU Usage</string>
 	<string name="p_cputotalusage">Total CPU usage</string>
-	<string name="p_cpuanothermonitor">AnotherMonitor</string>
+	<string name="p_cpuanothermonitor">CustomMonitor</string>
 	<string name="p_memtotal">Memory</string>
 	<string name="p_memused">Mem used</string>
 	<string name="p_memavailable">Mem available</string>

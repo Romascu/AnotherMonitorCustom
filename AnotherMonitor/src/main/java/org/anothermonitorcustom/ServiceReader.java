@@ -482,7 +482,7 @@ public class ServiceReader extends Service {
 						.append(intervalRead)
 						.append(",MemTotal (kB),")
 						.append(memTotal)
-						.append("\nTotal CPU usage (%),AnotherMonitor (Pid ").append(Process.myPid()).append(") CPU usage (%),AnotherMonitor Memory (kB)");
+						.append("\nTotal CPU usage (%),CustomMonitor (Pid ").append(Process.myPid()).append(") CPU usage (%),CustomMonitor Memory (kB)");
 				if (mListSelected != null && !mListSelected.isEmpty())
 					for (Map<String, Object> p : mListSelected)
 						sb.append(",").append(p.get(C.pAppName)).append(" (Pid ").append(p.get(C.pId)).append(") CPU usage (%)")

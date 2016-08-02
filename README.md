@@ -7,4 +7,4 @@ http://antonioredondo.com
 Published under the GNU General Public License v3
 https://github.com/AntonioRedondo/AnotherMonitor/blob/master/LICENSE.md
 
-This app is intended as a custom version of the above app, at this time contains minimal changes, mostly related to description/strings
+This app is intended as a custom version of the above app, at this time contains minimal changes, mostly related to description/strings and logo/icons.
